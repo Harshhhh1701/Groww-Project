@@ -1,5 +1,6 @@
 
 import './App.css';
+import Analytics from './components/analytics';
 import Main from './components/main';
 import Navbar from './components/navbar';
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Main/>
+      <Analytics/>
     </>
   );
 }
